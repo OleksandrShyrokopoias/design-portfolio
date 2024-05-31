@@ -1,0 +1,216 @@
+
+@media (max-width: 990px){
+      .header__wrapper{
+        display: block;
+        margin-bottom: 3rem;
+      }
+      .descriptions__wrapper {
+            margin-bottom: 60px;
+            flex-direction: column;
+            gap: 1.4rem;
+      }
+      .descriptions__text {
+            padding-top: 1.5rem;
+        }
+      .descriptions__title {
+            margin-bottom: 1rem;
+            font-size: 3rem;
+            line-height: 3.5rem;
+      }
+      .descriptions__text p {
+            margin-bottom: 1.7rem;
+      }
+     .descriptions__img {
+      max-width: none;
+      }
+      .video {
+       margin-bottom: 82px;
+      }
+      .projects {
+            padding-bottom: 20px;
+      }
+      .projects__title {
+            font-size: 3rem;
+            line-height: 3.2rem;
+            max-width: none;
+            margin-bottom: 45px;
+      }
+      .projects__item-wrapper {
+            margin-bottom: 35px;
+            flex-direction: column;
+      }
+      .projects__item-box-img {
+            width: 100%;
+            margin-bottom: 30px;
+      }
+      .projects__item-box-img img {
+            width: 100%;
+      }
+      .projects__descriptions {
+            width: 100%;
+            padding: 0;
+            order: 2;
+      }
+      .projects__item-title {
+            max-width: none;
+            font-size: 2.5rem;
+            line-height: 3rem;
+      }
+      .projects__descriptions p {
+            margin-bottom: 20px;
+      }
+      .reviews {
+            padding-top: 20px;
+            padding-bottom: 60px;
+      }
+      .reviews__title {
+            position: relative;
+            top: 50px;
+            max-width: none;
+            font-size: 3rem;
+      }
+      .reviews__text {
+            max-width: none;
+            margin-bottom: 30px;
+            font-size: 1.8rem;
+            line-height: 150%;
+      }
+      .reviews__client-information {
+            display: flex;
+            gap: 37px;
+      }
+      .reviews__client-name {
+            font-size: 1.6rem;
+      }
+        .reviews__client-descriptions-profesion {
+            font-size: 1.4rem;
+      }
+      .mySwiper {
+            position: relative;
+            padding-top: 80px;
+      }
+      .button__swiper-reviews {
+            display: none;
+           
+      }
+      .swiper-button-left {
+            transform: translateX(-100px);
+      }
+      .news {
+            padding-top: 40px;
+            padding-bottom: 40px;
+      }
+      .news__box-title {
+            margin-bottom: 20px;
+      }
+      .news__title-subtitle, .news__title {
+            font-size: 3.3rem;
+            line-height: 122%;
+      }
+      .news__title {
+            margin-top: -50px;
+      }
+      .news__box-card {
+            flex-direction: column;
+            gap: 20px;
+      }
+      .news__card {
+            width: 100%;
+      }
+      .news__card-box-info {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            padding-left: 32px;
+            padding-right: 32px;
+      }
+      .news__card-box-info img {
+            margin-bottom: 24px;
+      }
+      .news__card-text {
+            margin-bottom: 24px;
+      }
+      .footer-wrapper {
+            flex-direction: column;
+            gap: 60px;
+            padding-top: 45px;
+            padding-bottom: 45px;
+      }
+      .footer__contacts {
+            max-width: none;
+      }
+      .footer__contacts img {
+            margin-bottom: 25px;
+      }
+      .footer__social-wrapper {
+            margin-bottom: 25px;
+      }
+      .footer__social-link {
+            font-size: 1.1rem;
+            line-height: 133%;
+            margin-right: 20px;
+      }
+      .footer__info {
+            margin-bottom: 16px;
+            line-height: 190%;
+            font-size: 1.2rem;
+      }
+      .footer__mail {
+            margin-bottom: 40px;
+            font-size: 1.2rem;
+            line-height: 190%;
+      }
+      .footer__create {
+            font-size: 1.2rem;
+            line-height: 190%;
+      }
+      .footer__title {
+            margin-bottom: 24px;
+            font-size: 3.3rem;
+            line-height: 122%;
+      }
+      .footer__form-first {
+            margin-bottom: 40px;
+            gap: 20px;
+      }
+      .footer__form input{
+            width: 100%;
+            line-height: 190%;
+            font-size: 1.2rem;
+      }
+        .footer__form-text {
+            margin-bottom: 25px;
+            width: 100%;
+      }
+      .footer__form-button {
+            padding: 20px;
+            line-height: 122%;
+            font-size: 1.2rem;
+      }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
+       
+}
+
+@media (max-width: 400px){
+      .descriptions__link-hi {
+            margin-bottom: 30px;
+            display: block;
+            width: 100%;
+            text-align: center;
+      }
+      .descriptions__link-play {
+            display: block;
+            width: 100%;
+            text-align: center;
+      }
+}
+    

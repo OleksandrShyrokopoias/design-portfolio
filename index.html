@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="light-theme">
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                <div class="header__wrapper">
+                    <div class="box-logo">
+                        <svg class="logo-img" width="319" height="81" viewBox="0 0 319 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M26.9351 49.4226C25.6725 49.4226 24.6086 48.9897 23.7435 48.1239C22.8785 47.2345 22.4459 46.1699 22.4459 44.9296V35.9437H26.9351V42.6831C26.9351 43.3148 27.1457 43.8531 27.5663 44.2979C28.0107 44.7189 28.5485 44.9296 29.1797 44.9296H49.381C49.381 46.1932 48.9368 47.2581 48.0482 48.1239C47.1598 48.9897 46.1077 49.4226 44.8918 49.4226H26.9351ZM22.4459 31.4507V26.9578H49.381C49.381 28.2214 48.9368 29.2862 48.0482 30.152C47.1598 31.0178 46.1077 31.4507 44.8918 31.4507H22.4459ZM53.8702 49.4226V35.9437C53.8702 34.7034 54.3028 33.6505 55.1678 32.7847C56.0565 31.8953 57.1202 31.4507 58.3594 31.4507H76.3161V49.4226H71.827V35.9437H60.604C59.9728 35.9437 59.435 36.1661 58.9906 36.6107C58.57 37.0552 58.3594 37.5818 58.3594 38.1902V44.9296H71.827C71.827 46.1932 71.3828 47.2581 70.4941 48.1239C69.6057 48.9897 68.5537 49.4226 67.3378 49.4226H53.8702ZM80.8053 49.4226V26.9578H85.2945V49.4226H80.8053ZM94.2729 49.4226C93.0103 49.4226 91.9464 48.9897 91.0813 48.1239C90.2162 47.2345 89.7837 46.1699 89.7837 44.9296V35.9437C89.7837 34.7034 90.2162 33.6505 91.0813 32.7847C91.9699 31.8953 93.0336 31.4507 94.2729 31.4507H112.23L105.496 38.1902H112.23L107.74 42.6831H96.5175L103.251 35.9437H96.5175C95.8863 35.9437 95.3485 36.1661 94.9041 36.6107C94.4834 37.0552 94.2729 37.5818 94.2729 38.1902V42.6831C94.2729 43.3148 94.4834 43.8531 94.9041 44.2979C95.3485 44.7189 95.8863 44.9296 96.5175 44.9296H112.23C112.23 46.1932 111.785 47.2581 110.897 48.1239C110.008 48.9897 108.956 49.4226 107.74 49.4226H94.2729ZM116.719 49.4226V44.9296H132.431C133.039 44.9296 133.565 44.7189 134.009 44.2979C134.453 43.8531 134.676 43.3148 134.676 42.6831V35.9437H116.719V26.9578H121.208V31.4507H139.165V44.9296C139.165 46.1932 138.721 47.2581 137.832 48.1239C136.943 48.9897 135.891 49.4226 134.676 49.4226H116.719Z" fill="black"/>
+                            <path d="M161.611 49.4226V31.4507L157.121 26.9578H163.855L179.567 42.6831V26.9578H184.057V49.4226H179.567L166.1 35.9437V49.4226H161.611ZM206.502 53.9155V49.4226H193.035C191.796 49.4226 190.732 48.9897 189.843 48.1239C188.978 47.2581 188.546 46.1932 188.546 44.9296V31.4507H193.035V42.6831C193.035 43.3148 193.245 43.8531 193.666 44.2979C194.111 44.7189 194.648 44.9296 195.28 44.9296H206.502V31.4507H210.992V49.4226C210.992 50.6628 210.547 51.7158 209.659 52.5816C208.77 53.4709 207.718 53.9155 206.502 53.9155ZM231.193 44.9296C231.801 44.9296 232.327 44.7189 232.771 44.2979C233.215 43.8531 233.438 43.3148 233.438 42.6831V35.9437H219.97V42.6831C219.97 43.3148 220.181 43.8531 220.601 44.2979C221.046 44.7189 221.583 44.9296 222.215 44.9296H231.193ZM219.97 49.4226C218.707 49.4226 217.644 48.9897 216.778 48.1239C215.913 47.2345 215.481 46.1699 215.481 44.9296V31.4507H237.927V44.9296C237.927 46.1932 237.482 47.2581 236.593 48.1239C235.705 48.9897 234.654 49.4226 233.438 49.4226H219.97ZM242.416 49.4226V31.4507H260.373C261.612 31.4507 262.664 31.8953 263.529 32.7847C264.417 33.6738 264.862 34.7268 264.862 35.9437V49.4226H260.373V38.1902C260.373 37.5818 260.151 37.0552 259.706 36.6107C259.262 36.1661 258.736 35.9437 258.128 35.9437H246.905V49.4226H242.416ZM287.308 53.9155V49.4226H273.84C272.601 49.4226 271.537 48.9897 270.648 48.1239C269.784 47.2581 269.351 46.1932 269.351 44.9296V31.4507H291.797C291.797 32.7144 291.353 33.7792 290.464 34.645C289.575 35.5108 288.524 35.9437 287.308 35.9437H273.84V42.6831C273.84 43.3148 274.051 43.8531 274.471 44.2979C274.915 44.7189 275.454 44.9296 276.085 44.9296H287.308V40.4366H291.797V49.4226C291.797 50.6628 291.353 51.7158 290.464 52.5816C289.575 53.4709 288.524 53.9155 287.308 53.9155Z" fill="black"/>
+                        </svg>  
+                    </div>
+                    <div class="nav">
+                        <div class="nav__menu">
+                            <p class="nav__text">Switch Theme</p>
+                            <button class="change-theme">
+                                <div class="nav__button-enter"></div>
+                            </button>
+                        </div>
+                        <div class="nav__circle"></div>
+                    </div>
+                </div>
+            </div> 
+        </header>
+        <main>
+           <section class="descriptions">
+                <div class="container">
+                    <div class="descriptions__wrapper">
+                        <div class="descriptions__text">
+                            <h1 class="descriptions__title">HI THERE, I’M A DIGITAL PRODUCT DESIGNER</h1>
+                            <p>
+                                Caleb Asuquo N. is a Brand Identity, UI/UX & Web Designer passionate about building brands that inspire & solving problems creatively with a slight addiction to coffee and music. 
+                            </p>
+                            <div class="descriptions__box-link">
+                                <a href="#" class="descriptions__link-hi">Say Hi</a>
+                                <a href="#" class="descriptions__link-play">Play Showreel</a>
+                            </div>
+                        </div>
+                        <img src="img/hero.jpg" alt="photo" class="descriptions__img">
+                    </div>
+                </div>
+           </section>
+           <section class="video">
+                <div class="container">
+                    <div class="video__wrapper">
+                        <button class="video-play" data-fancybox data-src="#video-popup">
+                            <img src="img/Group 8.svg" alt="play">
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="projects">
+                <div class="container">
+                    <div class="projects__wrapper">
+                        <h2 class="projects__title">MY FEATURED PROJECTS</h2>
+                        <div class="projects__item-wrapper">
+                            <div class="projects__item-box-img">
+                                <img src="img/p-1.jpg" alt="banner" class="projects__img">
+                            </div>
+                            <div class="projects__descriptions">
+                                <h3 class="projects__item-title">Play Ground Popel</h3>
+                                <p>
+                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The text has various versions which has evolved.
+                                </p>
+                                <a href="#" class="projects__item-link">Behance Case Study - </a>
+                            </div>
+                        </div>
+                        <div class="projects__item-wrapper">
+                            <div class="projects__descriptions ">
+                                <h3 class="projects__item-title">Play Ground Popel</h3>
+                                <p>
+                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The text has various versions which has evolved.
+                                </p>
+                                <a href="#" class="projects__item-link">Behance Case Study - </a>
+                            </div>
+                            <div class="projects__item-box-img">
+                                <img src="img/p-2.jpg" alt="banner" class="projects__img">
+                            </div>
+                        </div>
+                        <div class="projects__item-wrapper">
+                            <div class="projects__item-box-img">
+                                <img src="img/p-3.jpg" alt="banner" class="projects__img">
+                            </div>
+                            <div class="projects__descriptions">
+                                <h3 class="projects__item-title">Play Ground Popel</h3>
+                                <p>
+                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The text has various versions which has evolved.
+                                </p>
+                                <a href="#" class="projects__item-link">Behance Case Study - </a>
+                            </div>
+                        </div>
+                        <div class="projects__item-wrapper">
+                            <div class="projects__descriptions">
+                                <h3 class="projects__item-title">Play Ground Popel</h3>
+                                <p>
+                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The text has various versions which has evolved.
+                                </p>
+                                <a href="#" class="projects__item-link">Behance Case Study - </a>
+                            </div>
+                            <div class="projects__item-box-img">
+                                <img src="img/p-4.jpg" alt="banner" class="projects__img">
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="reviews">
+                <div class="container">
+                    <div class="reviews__inner">
+                        <h4 class="reviews__title">What My Clients Says.</h4>
+                         <!-- Swiper -->
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <p class="reviews__text">
+                                        “Wilson will patiently listen to you and give you his own Ideas as well, and in the end, he comes up with something completey different from what you’re expecting, but the good news is, you’ll always love it
+                                    </p>
+                                    <div class="reviews__client-information">
+                                        <div class="reviews__client-box-photo">
+                                            <img src="img/client.png" alt="photo">
+                                        </div>
+                                        <div class="reviews__client-descriptions">
+                                            <p class="reviews__client-name">Julliet Vandy</p>
+                                            <p class="reviews__client-descriptions-profesion">Facebook Marketing Manager</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <p class="reviews__text">
+                                        “Wilson will patiently listen to you and give you his own Ideas as well, and in the end, he comes up with something completey different from what you’re expecting, but the good news is, you’ll always love it
+                                    </p>
+                                    <div class="reviews__client-information">
+                                        <div class="reviews__client-box-photo">
+                                            <img src="img/client.png" alt="photo">
+                                        </div>
+                                        <div class="reviews__client-descriptions">
+                                            <p class="reviews__client-name">Julliet Vandy</p>
+                                            <p class="reviews__client-descriptions-profesion">Facebook Marketing Manager</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <p class="reviews__text">
+                                        “Wilson will patiently listen to you and give you his own Ideas as well, and in the end, he comes up with something completey different from what you’re expecting, but the good news is, you’ll always love it
+                                    </p>
+                                    <div class="reviews__client-information">
+                                        <div class="reviews__client-box-photo">
+                                            <img src="img/client.png" alt="photo">
+                                        </div>
+                                        <div class="reviews__client-descriptions">
+                                            <p class="reviews__client-name">Julliet Vandy</p>
+                                            <p class="reviews__client-descriptions-profesion">Facebook Marketing Manager</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <p class="reviews__text">
+                                        “Wilson will patiently listen to you and give you his own Ideas as well, and in the end, he comes up with something completey different from what you’re expecting, but the good news is, you’ll always love it
+                                    </p>
+                                    <div class="reviews__client-information">
+                                        <div class="reviews__client-box-photo">
+                                            <img src="img/client.png" alt="photo">
+                                        </div>
+                                        <div class="reviews__client-descriptions">
+                                            <p class="reviews__client-name">Julliet Vandy</p>
+                                            <p class="reviews__client-descriptions-profesion">Facebook Marketing Manager</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="button__swiper-reviews swiper-button-right">
+                                <img src="img/button-right.png" alt="button">
+                            </div>
+                            <div class="button__swiper-reviews swiper-button-left">
+                                <img src="img/button-left.png" alt="button">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="news">
+                <div class="container">
+                    <div class="news__wrapper">
+                        <div class="news__box-title">
+                            <span class="news__title-subtitle">what’s new</span>
+                            <h5 class="news__title">latest on instagram</h5>
+                        </div>
+                        <div class="news__box-card">
+                            <a href="#" class="news__card" style="background-image: url(img/card2.jpg);"> 
+                                <div class="news__card-box-info">
+                                    <img src="img/Instagram.svg" alt="instagram">
+                                    <p class="news__card-text">
+                                        It’s a long established fact that a reader will be distracted by the readable content of a page.
+                                    </p>
+                                    <div class="news__card-box-sum">
+                                        <div class="news__card-dot"></div>
+                                        <span class="news__card-box-text">12.7k</span>      
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="news__card">
+                                <div class="news__card-box-info">
+                                    <img src="img/Instagram.svg" alt="instagram">
+                                    <p class="news__card-text">
+                                        It’s a long established fact that a reader will be distracted by the readable content of a page.
+                                    </p>
+                                    <div class="news__card-box-sum">
+                                        <div class="news__card-dot"></div>
+                                        <span class="news__card-box-text">12.7k</span>      
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="news__card" style="background-image: url(img/card2.jpg);">
+                                <div class="news__card-box-info">
+                                    <img src="img/Instagram.svg" alt="instagram">
+                                    <p class="news__card-text">
+                                        It’s a long established fact that a reader will be distracted by the readable content of a page.
+                                    </p>
+                                    <div class="news__card-box-sum">
+                                        <div class="news__card-dot"></div>
+                                        <span class="news__card-box-text">12.7k</span>      
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container">
+                <div class="footer-wrapper">
+                    <div class="footer__contacts">
+                        <svg class="logo-img" width="319" height="81" viewBox="0 0 319 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M26.9351 49.4226C25.6725 49.4226 24.6086 48.9897 23.7435 48.1239C22.8785 47.2345 22.4459 46.1699 22.4459 44.9296V35.9437H26.9351V42.6831C26.9351 43.3148 27.1457 43.8531 27.5663 44.2979C28.0107 44.7189 28.5485 44.9296 29.1797 44.9296H49.381C49.381 46.1932 48.9368 47.2581 48.0482 48.1239C47.1598 48.9897 46.1077 49.4226 44.8918 49.4226H26.9351ZM22.4459 31.4507V26.9578H49.381C49.381 28.2214 48.9368 29.2862 48.0482 30.152C47.1598 31.0178 46.1077 31.4507 44.8918 31.4507H22.4459ZM53.8702 49.4226V35.9437C53.8702 34.7034 54.3028 33.6505 55.1678 32.7847C56.0565 31.8953 57.1202 31.4507 58.3594 31.4507H76.3161V49.4226H71.827V35.9437H60.604C59.9728 35.9437 59.435 36.1661 58.9906 36.6107C58.57 37.0552 58.3594 37.5818 58.3594 38.1902V44.9296H71.827C71.827 46.1932 71.3828 47.2581 70.4941 48.1239C69.6057 48.9897 68.5537 49.4226 67.3378 49.4226H53.8702ZM80.8053 49.4226V26.9578H85.2945V49.4226H80.8053ZM94.2729 49.4226C93.0103 49.4226 91.9464 48.9897 91.0813 48.1239C90.2162 47.2345 89.7837 46.1699 89.7837 44.9296V35.9437C89.7837 34.7034 90.2162 33.6505 91.0813 32.7847C91.9699 31.8953 93.0336 31.4507 94.2729 31.4507H112.23L105.496 38.1902H112.23L107.74 42.6831H96.5175L103.251 35.9437H96.5175C95.8863 35.9437 95.3485 36.1661 94.9041 36.6107C94.4834 37.0552 94.2729 37.5818 94.2729 38.1902V42.6831C94.2729 43.3148 94.4834 43.8531 94.9041 44.2979C95.3485 44.7189 95.8863 44.9296 96.5175 44.9296H112.23C112.23 46.1932 111.785 47.2581 110.897 48.1239C110.008 48.9897 108.956 49.4226 107.74 49.4226H94.2729ZM116.719 49.4226V44.9296H132.431C133.039 44.9296 133.565 44.7189 134.009 44.2979C134.453 43.8531 134.676 43.3148 134.676 42.6831V35.9437H116.719V26.9578H121.208V31.4507H139.165V44.9296C139.165 46.1932 138.721 47.2581 137.832 48.1239C136.943 48.9897 135.891 49.4226 134.676 49.4226H116.719Z" fill="black"/>
+                            <path d="M161.611 49.4226V31.4507L157.121 26.9578H163.855L179.567 42.6831V26.9578H184.057V49.4226H179.567L166.1 35.9437V49.4226H161.611ZM206.502 53.9155V49.4226H193.035C191.796 49.4226 190.732 48.9897 189.843 48.1239C188.978 47.2581 188.546 46.1932 188.546 44.9296V31.4507H193.035V42.6831C193.035 43.3148 193.245 43.8531 193.666 44.2979C194.111 44.7189 194.648 44.9296 195.28 44.9296H206.502V31.4507H210.992V49.4226C210.992 50.6628 210.547 51.7158 209.659 52.5816C208.77 53.4709 207.718 53.9155 206.502 53.9155ZM231.193 44.9296C231.801 44.9296 232.327 44.7189 232.771 44.2979C233.215 43.8531 233.438 43.3148 233.438 42.6831V35.9437H219.97V42.6831C219.97 43.3148 220.181 43.8531 220.601 44.2979C221.046 44.7189 221.583 44.9296 222.215 44.9296H231.193ZM219.97 49.4226C218.707 49.4226 217.644 48.9897 216.778 48.1239C215.913 47.2345 215.481 46.1699 215.481 44.9296V31.4507H237.927V44.9296C237.927 46.1932 237.482 47.2581 236.593 48.1239C235.705 48.9897 234.654 49.4226 233.438 49.4226H219.97ZM242.416 49.4226V31.4507H260.373C261.612 31.4507 262.664 31.8953 263.529 32.7847C264.417 33.6738 264.862 34.7268 264.862 35.9437V49.4226H260.373V38.1902C260.373 37.5818 260.151 37.0552 259.706 36.6107C259.262 36.1661 258.736 35.9437 258.128 35.9437H246.905V49.4226H242.416ZM287.308 53.9155V49.4226H273.84C272.601 49.4226 271.537 48.9897 270.648 48.1239C269.784 47.2581 269.351 46.1932 269.351 44.9296V31.4507H291.797C291.797 32.7144 291.353 33.7792 290.464 34.645C289.575 35.5108 288.524 35.9437 287.308 35.9437H273.84V42.6831C273.84 43.3148 274.051 43.8531 274.471 44.2979C274.915 44.7189 275.454 44.9296 276.085 44.9296H287.308V40.4366H291.797V49.4226C291.797 50.6628 291.353 51.7158 290.464 52.5816C289.575 53.4709 288.524 53.9155 287.308 53.9155Z" fill="black"/>
+                        </svg>  
+                        <div class="footer__social-wrapper">
+                            <a href="#" class="footer__social-link">Fb.</a>
+                            <a href="#" class="footer__social-link">Tw..</a>
+                            <a href="#" class="footer__social-link">Db..</a>
+                            <a href="#" class="footer__social-link">In..</a>
+                        </div>
+                        <p class="footer__info">
+                            Feel free to reach out to me any time. I prefer to talk over email, especially since we may be a few time zones away.
+                        </p>
+                        <p class="footer__mail">calebnyong02@gmail.com</p>
+                        <p class="footer__create">© 2022 by Caleb Nyong</p>
+                    </div>
+                    <div class="footer__form-wrapper">
+                        <h6 class="footer__title">Let’s Work Together!</h6>
+                        <form action="mailto:nbuboto7t" enctype="text/plain" class="footer__form">
+                            <div class="footer__form-first">
+                                <label>
+                                    <input type="text" class="footer__form-name" placeholder="Full Name">
+                                </label>
+                                <label>
+                                    <input type="tel" class="footer__form-phone" placeholder="Phone No.">
+                                </label>
+                            </div>
+                            <label>
+                                <input type="text" class="footer__form-text" placeholder="Your Message">
+                            </label>
+                            <button type="submit" class="footer__form-button">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+          
+        </footer>
+
+        <div id="video-popup">
+            <video class="popup-video" src="video/The new AirPods Pro   Quiet the noise   Apple.mp4" controls></video>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
